@@ -1,1 +1,15 @@
-/* Responsive styles will be defined here. */
+@media (max-width: 47.999rem) {
+  :root {
+    --container-gutter: 1rem;
+    --font-size-h1: 2.5rem;
+    --font-size-h2: 1.875rem;
+    --font-size-h3: 1.25rem;
+    --section-spacing: var(--space-16);
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
