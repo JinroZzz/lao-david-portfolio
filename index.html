@@ -1,89 +1,135 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal portfolio showcasing selected projects, experience, and certificates.">
-    <title>Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Lao David, a Software Engineering student and junior backend developer in Phnom Penh focused on Java, Spring Boot, MySQL, REST APIs, and practical software projects.">
+  <title>Lao David | Software Engineering Student &amp; Backend Developer</title>
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-layout">
+      <a class="brand" href="#home" aria-label="Lao David portfolio home">Lao David</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="menu-toggle__label">Menu</span><span class="menu-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span></button>
+      <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation"><ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#cv">CV</a></li><li><a href="#projects">Projects</a></li><li><a href="#reports">Reports</a></li><li><a href="#certificates">Certificates</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <section class="hero" id="home" aria-labelledby="home-heading">
+      <div class="container hero__layout hero__layout--single"><div class="hero__content">
+        <p class="technical-label">Java · Spring Boot · MySQL · REST APIs</p>
+        <h1 id="home-heading">Hello, I’m David.</h1>
+        <p class="hero__title">Software Engineering Student &amp; Backend Developer</p>
+        <p class="hero__location">Phnom Penh, Cambodia</p>
+        <p class="hero__summary">I build practical backend and database-driven applications for real-world needs.</p>
+        <div class="hero__actions"><a class="button button--primary" href="#projects">View My Projects</a><span class="availability-status">CV Coming Soon</span><a class="button button--secondary" href="#contact">Contact Me</a></div>
+      </div></div>
+    </section>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/sections.css">
-    <link rel="stylesheet" href="css/responsive.css">
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <section class="section section--bordered" id="about" aria-labelledby="about-heading">
+      <div class="container section-layout"><div class="section-heading"><p class="technical-label">Profile</p><h2 id="about-heading">About Me</h2></div><div class="about-content">
+        <p class="section-intro">I’m Lao David, a Software Engineering student based in Phnom Penh, Cambodia. I enjoy solving practical problems by building backend and database-driven applications for real-world needs.</p>
+        <p>I learn best through hands-on projects rather than theory alone. I’m currently strengthening my skills in Java, Spring Boot, MySQL and SQL, REST APIs, Data Structures and Algorithms, Git and GitHub, and Flutter.</p>
+        <p>My practical experience includes Clinix for a family medicine-distribution business, university team projects such as InvoSight, DSA Java Toolkit and Nudge, and smaller personal and academic projects.</p>
+        <p>My goal is to become a backend developer, with a long-term focus on Java, Spring Boot and database-driven systems.</p>
+        <h3 class="about-subheading">Education</h3>
+        <dl class="resume-facts about-facts"><div><dt>Programme</dt><dd>Bachelor of Software Engineering</dd></div><div><dt>Institution</dt><dd>Limkokwing University of Creative Technology</dd></div><div><dt>Current level</dt><dd>Year 3, Semester 2</dd></div><div><dt>Started</dt><dd>Around October 2024</dd></div><div><dt>Expected graduation</dt><dd>Around the end of 2027</dd></div></dl>
+      </div></div>
+    </section>
 
-    <header class="site-header">
-      <a href="#home" aria-label="Portfolio home">Portfolio</a>
-
-      <nav aria-label="Primary navigation">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#certificates">Certificates</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main id="main-content">
-      <section id="home" aria-labelledby="home-heading">
-        <h1 id="home-heading">Hello, I’m [Your Name]</h1>
-        <p>A short introduction and professional headline will go here.</p>
-      </section>
-
-      <section id="about" aria-labelledby="about-heading">
-        <h2 id="about-heading">About</h2>
-        <p>A brief biography will go here.</p>
-      </section>
-
-      <section id="projects" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Projects</h2>
-        <div class="project-list">
-          <article>
-            <h3>DeepISO</h3>
-            <p>Project details will go here.</p>
-          </article>
-          <article>
-            <h3>Clinix</h3>
-            <p>Project details will go here.</p>
-          </article>
-          <article>
-            <h3>InvoSight</h3>
-            <p>Project details will go here.</p>
-          </article>
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container section-layout"><div class="section-heading"><p class="technical-label">Technical profile</p><h2 id="skills-heading">Skills</h2></div><div class="skills-content">
+        <div class="focus-panel"><h3>Primary Backend Focus</h3><p class="focus-note">The technologies and practices I’m prioritizing as I work toward backend development.</p><ul class="inline-list"><li>Java</li><li>Spring Boot</li><li>MySQL and SQL</li><li>Backend development</li><li>REST APIs</li><li>Database design</li><li>Git and GitHub</li></ul></div>
+        <h3 class="skills-subheading">Working Knowledge</h3>
+        <div class="skill-groups" aria-label="Technical skills">
+          <div class="skill-group"><h4>Programming Languages</h4><ul class="skill-list"><li>Java</li><li>SQL</li><li>Dart</li><li>PHP</li><li>JavaScript</li></ul></div>
+          <div class="skill-group"><h4>Backend</h4><ul class="skill-list"><li>Spring Boot</li><li>Laravel</li><li>REST APIs</li><li>CRUD development</li></ul></div>
+          <div class="skill-group"><h4>Frontend</h4><ul class="skill-list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li><li>Tailwind CSS</li></ul></div>
+          <div class="skill-group"><h4>Mobile</h4><ul class="skill-list"><li>Flutter</li></ul></div>
+          <div class="skill-group"><h4>Databases</h4><ul class="skill-list"><li>MySQL</li><li>MariaDB</li><li>SQLite</li></ul></div>
+          <div class="skill-group"><h4>Development Tools</h4><ul class="skill-list"><li>Git</li><li>GitHub</li><li>IntelliJ IDEA</li><li>VS Code</li><li>Laragon</li><li>XAMPP</li><li>MySQL Workbench</li></ul></div>
+          <div class="skill-group"><h4>Testing and Workflow</h4><ul class="skill-list"><li>PHPUnit</li><li>GitHub Actions</li><li>Git/GitHub workflows</li></ul></div>
+          <div class="skill-group"><h4>Design Tools</h4><ul class="skill-list"><li>Figma</li><li>Canva</li></ul></div>
+          <div class="skill-group"><h4>Computer-Science Foundations</h4><ul class="skill-list"><li>Data Structures and Algorithms</li></ul></div>
         </div>
-      </section>
+        <p class="learning-note">The primary focus above reflects my backend direction. The remaining categories represent project experience and continued learning.</p>
+      </div></div>
+    </section>
 
-      <section id="resume" aria-labelledby="resume-heading">
-        <h2 id="resume-heading">Resume</h2>
-        <p>Experience, education, and skills will go here.</p>
-      </section>
+    <section class="section section--sand" id="cv" aria-labelledby="cv-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Documents</p><h2 id="cv-heading">CV &amp; Cover Letter</h2></div><div><p class="section-intro">My CV and cover letter are currently being prepared and will be available here soon.</p><div class="document-status" aria-label="Document availability"><article class="document-item"><h3>Curriculum Vitae</h3><p>A summary of my education, technical skills and project experience.</p><p class="document-item__status"><strong>Status:</strong> Coming soon</p></article><article class="document-item"><h3>Cover Letter</h3><p>An introduction to my background, interests and career direction.</p><p class="document-item__status"><strong>Status:</strong> Coming soon</p></article></div></div></div></section>
 
-      <section id="certificates" aria-labelledby="certificates-heading">
-        <h2 id="certificates-heading">Certificates</h2>
-        <p>Professional certificates will go here.</p>
-      </section>
+    <section class="section" id="projects" aria-labelledby="projects-heading"><div class="container">
+      <div class="section-heading section-heading--spaced"><p class="technical-label">Selected work</p><h2 id="projects-heading">Projects</h2></div>
+      <h3 class="project-group-heading">Featured Projects</h3>
+      <div class="featured-projects">
+        <article class="project-card project-card--featured project-card--primary">
+          <div class="media-placeholder"><span>Private business project</span><small>Screenshot withheld for privacy</small></div>
+          <div class="project-card__content"><div class="project-header"><div><p class="technical-label">Real Business Project</p><h3>Clinix</h3></div><p class="status-label">Working and usable · Improvements planned</p></div>
+            <p class="project-summary">A medicine distribution and order-management web application built for a real family business.</p>
+            <div class="project-details"><div><h4>Problem</h4><p>It replaces parts of a paper-based workflow with a centralized system for managing products, inventory, customers, orders and customer debts.</p></div><div><h4>My contribution</h4><p>I designed and developed the application, including its database and main business-management features.</p></div><div><h4>Result</h4><p>It helps organize business records digitally instead of relying primarily on paper records.</p></div></div>
+            <h4>Main features</h4><ul class="feature-list"><li>Product management</li><li>Inventory management</li><li>Customer management</li><li>Order management</li><li>Customer debt tracking</li><li>Order records</li><li>Database-driven business workflow</li></ul>
+            <ul class="tag-list" aria-label="Clinix technologies"><li>Laravel</li><li>PHP</li><li>MySQL</li><li>Bootstrap</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><p class="source-note"><strong>Access:</strong> Private business project. Source code is stored locally; there is no public repository or live URL.</p>
+          </div>
+        </article>
+        <article class="project-card project-card--featured">
+          <div class="media-placeholder"><span>Project preview</span><small>Screenshot coming soon</small></div>
+          <div class="project-card__content"><div class="project-header"><div><p class="technical-label">University Team Project</p><h3>InvoSight</h3></div><p class="status-label">Prototype</p></div>
+            <p class="project-summary">A QR-ordering and POS system designed for small and medium-sized cafés.</p>
+            <div class="project-details"><div><h4>Problem</h4><p>It aims to make café ordering and cashier operations more efficient through a digital POS and QR-based ordering workflow.</p></div><div><h4>My contribution</h4><p>I worked on the cashier/POS interface and its related workflow.</p></div><div><h4>Result</h4><p>I gained practical experience building a business-oriented application with a team, particularly in designing and implementing cashier workflows.</p></div></div>
+            <h4>Main features and concepts</h4><ul class="feature-list"><li>QR ordering</li><li>Cashier/POS interface</li><li>Order management</li><li>Café ordering workflow</li><li>Inventory-related functionality</li><li>Sales and business-insight concepts</li><li>Cash payments</li><li>Static KHQR with manual cashier confirmation</li><li>Live order updates through AJAX polling</li></ul>
+            <ul class="tag-list" aria-label="InvoSight technologies"><li>PHP</li><li>Laravel</li><li>MVC architecture</li><li>Blade</li><li>Tailwind CSS</li><li>JavaScript</li><li>Eloquent</li><li>SQLite or MySQL</li><li>PHPUnit</li><li>GitHub Actions</li><li>AJAX polling</li></ul><p class="source-note"><strong>Access:</strong> Restricted team repository. No public URL is confirmed.</p>
+          </div>
+        </article>
+      </div>
+      <h3 class="project-group-heading project-group-heading--other">Other Projects</h3>
+      <div class="other-projects">
+        <article class="compact-card"><p class="technical-label">University Team Project</p><h3>DSA Java Toolkit</h3><p>A university team project implementing and testing common data structures and algorithms in Java.</p><p><strong>My contribution:</strong> Linear search and binary search.</p><ul class="tag-list" aria-label="DSA Java Toolkit technologies"><li>Java</li></ul><p class="source-note">No public repository is provided.</p></article>
+        <article class="compact-card"><p class="technical-label">Personal Project · In Development</p><h3>Deepiso</h3><p>An ongoing personal trading-analysis project focused on developing trading logic and structured market-analysis rules.</p><p><strong>My contribution:</strong> The trading logic and underlying concept and system.</p><h4>Concepts</h4><ul class="compact-list"><li>Trend analysis</li><li>Entry and exit concepts</li><li>Structured trade setups</li><li>Market-analysis logic</li></ul><p class="source-note">Private source code · No live URL · In development</p></article>
+        <article class="compact-card"><p class="technical-label">University Flutter Project</p><h3>Nudge</h3><p>A location-based reminder application created as a university team project.</p><p><strong>My contribution:</strong> The Create Nudge flow.</p><ul class="tag-list" aria-label="Nudge technologies"><li>Flutter</li><li>Dart</li></ul><p class="source-note">No public repository or live URL is provided.</p></article>
+      </div>
+    </div></section>
 
-      <section id="contact" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contact</h2>
-        <address>
-          <a href="mailto:hello@example.com">hello@example.com</a>
-        </address>
-      </section>
-    </main>
+    <section class="section section--sand section--empty" id="reports" aria-labelledby="reports-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Written work</p><h2 id="reports-heading">Reports</h2></div><div class="empty-state"><p class="section-intro">Selected academic and project reports will be added here after they are prepared for public viewing.</p><p class="empty-state__status">Coming soon</p></div></div></section>
 
-    <footer>
-      <p><small>&copy; [Your Name].</small></p>
-    </footer>
+    <section class="section section--empty" id="certificates" aria-labelledby="certificates-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Credentials</p><h2 id="certificates-heading">Certificates</h2></div><div class="empty-state"><p class="section-intro">Career-relevant certificates will be added here after their details and supporting files are verified.</p><p class="empty-state__status">Coming soon</p></div></div></section>
 
-    <script src="js/main.js" defer></script>
-  </body>
+    <section class="section section--bordered" id="experience" aria-labelledby="experience-heading">
+      <div class="container section-layout">
+        <div class="section-heading"><p class="technical-label">Learning by building</p><h2 id="experience-heading">Experience</h2></div>
+        <div class="resume-list">
+          <article class="resume-item"><h3>Clinix / Family Business Software Project</h3><p>For a family medicine-distribution business, I designed and developed the Clinix web application and its database. I built the main business-management features around products, inventory, customers, orders and customer debts, helping move parts of the paper-based workflow into digital records.</p></article>
+          <article class="resume-item"><h3>University Team Projects</h3><p>I collaborated on InvoSight, the DSA Java Toolkit and Nudge. My contributions included the InvoSight cashier/POS interface and workflow, linear and binary search for the Java toolkit, and the Create Nudge flow for the Flutter application.</p></article>
+          <article class="resume-item"><h3>Smaller Personal and Academic Projects</h3><p>I build smaller projects to practise programming, backend concepts, databases and software-development workflows.</p></article>
+          <article class="resume-item"><h3>Damoluxe</h3><p>I supported customer service, restocking and order management for a small e-commerce and fashion-accessories business, developing practical organization and customer-focused skills.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="volunteering" aria-labelledby="volunteering-heading">
+      <div class="container section-layout">
+        <div class="section-heading"><p class="technical-label">Community</p><h2 id="volunteering-heading">Volunteering</h2></div>
+        <div class="volunteer-grid">
+          <article class="compact-card"><p class="technical-label">Promoter member</p><h3>POPLE EV</h3><p>I supported promotional activities and helped communicate the POPLE EV offering to potential audiences.</p></article>
+          <article class="compact-card"><p class="technical-label">Event support · Two seasons</p><h3>Refresh Your Life</h3><p>I supported event organization and assisted the event leader across two seasons for a Cambodian volunteer team that organizes events and talk shows intended to inspire young people.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="media" aria-labelledby="media-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Video</p><h2 id="media-heading">Media</h2></div><div class="media-content"><p class="section-intro">Selected presentation and interview videos will be added here after they are prepared for public viewing.</p><div class="media-grid"><article class="media-card"><h3>Marketing Video</h3><p class="media-card__status">Coming soon</p></article><article class="media-card"><h3>Mock-Interview Video</h3><p class="media-card__status">Coming soon</p></article></div></div></div></section>
+
+    <section class="section section--contact" id="contact" aria-labelledby="contact-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Get in touch</p><h2 id="contact-heading">Contact</h2></div><div class="contact-content"><p class="section-intro">I’m open to internship, junior-development and collaborative project opportunities. If you would like to discuss a role or project, feel free to contact me by email.</p><address class="contact-list"><div class="contact-row"><span>Location</span><span>Phnom Penh, Cambodia</span></div><div class="contact-row"><span>Email</span><a href="mailto:laodavid205@gmail.com">laodavid205@gmail.com</a></div></address><div class="contact-actions"><a class="button button--primary" href="mailto:laodavid205@gmail.com">Email Me</a></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-layout"><div><a class="brand" href="#home" aria-label="Lao David portfolio home">Lao David</a><p>Built with HTML, CSS, and JavaScript.</p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#cv">CV</a><a href="#projects">Projects</a><a href="#reports">Reports</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav><p class="copyright"><small>&copy; <span id="current-year"></span> Lao David.</small></p></div></footer>
+  <script src="js/main.js" defer></script>
+</body>
 </html>
