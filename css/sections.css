@@ -69,6 +69,28 @@
   margin-top: var(--space-8);
 }
 
+.hero__portrait {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__portrait-frame {
+  position: relative;
+  width: min(100%, 22rem);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-sand);
+}
+
+.hero__portrait-image {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .section--bordered {
   border-top: 1px solid var(--color-border);
 }
@@ -415,9 +437,93 @@
   padding-top: var(--space-3);
 }
 
+.document-item__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-8);
+}
+
+.document-item__actions .button {
+  padding: var(--space-4) var(--space-5, 1.25rem);
+  white-space: nowrap;
+}
+
 .section--empty {
   scroll-margin-top: 4.5rem;
   padding-block: var(--space-12);
+}
+
+.report-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+}
+
+.report-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  border: 1px solid var(--color-border);
+  padding: var(--space-6);
+  background-color: var(--color-off-white);
+}
+
+.report-card .technical-label {
+  margin-bottom: var(--space-3);
+}
+
+.report-card h3 {
+  margin-bottom: var(--space-3);
+  font-size: var(--font-size-lg);
+}
+
+.report-card > p:not(.technical-label) {
+  margin-bottom: var(--space-6);
+}
+
+.report-card .button {
+  margin-top: auto;
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+}
+
+.certificate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  border: 1px solid var(--color-border);
+  padding: var(--space-6);
+  background-color: var(--color-off-white);
+}
+
+.certificate-card .technical-label {
+  margin-bottom: var(--space-3);
+}
+
+.certificate-card h3 {
+  margin-bottom: var(--space-3);
+  font-size: var(--font-size-lg);
+}
+
+.certificate-card > p:not(.technical-label) {
+  margin-bottom: var(--space-3);
+}
+
+.certificate-card__meta {
+  color: var(--color-text-muted);
+}
+
+.certificate-card .button {
+  margin-top: auto;
 }
 
 .empty-state {

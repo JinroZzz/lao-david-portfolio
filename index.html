@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of Lao David, a Software Engineering student and junior backend developer in Phnom Penh focused on Java, Spring Boot, MySQL, REST APIs, and practical software projects.">
-  <title>Lao David | Software Engineering Student &amp; Backend Developer</title>
+  <meta name="description" content="Portfolio of Lao David, a Software Engineering student in Phnom Penh focused on Java, Spring Boot, MySQL, REST APIs, and practical software projects.">
+  <title>Lao David | Software Engineering Student</title>
   <script>document.documentElement.classList.add("js");</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,21 +26,62 @@
   </header>
   <main id="main-content" tabindex="-1">
     <section class="hero" id="home" aria-labelledby="home-heading">
-      <div class="container hero__layout hero__layout--single"><div class="hero__content">
-        <p class="technical-label">Java · Spring Boot · MySQL · REST APIs</p>
-        <h1 id="home-heading">Hello, I’m David.</h1>
-        <p class="hero__title">Software Engineering Student &amp; Backend Developer</p>
-        <p class="hero__location">Phnom Penh, Cambodia</p>
-        <p class="hero__summary">I build practical backend and database-driven applications for real-world needs.</p>
-        <div class="hero__actions"><a class="button button--primary" href="#projects">View My Projects</a><span class="availability-status">CV Coming Soon</span><a class="button button--secondary" href="#contact">Contact Me</a></div>
-      </div></div>
-    </section>
+  <div class="container hero__layout">
+    <div class="hero__content">
+      <p class="technical-label">Java · Spring Boot · MySQL · REST APIs</p>
+
+      <h1 id="home-heading">Hello, I’m David.</h1>
+
+      <p class="hero__title">Software Engineering Student</p>
+
+      <p class="hero__location">Phnom Penh, Cambodia</p>
+
+      <p class="hero__summary">
+        I build practical software and database-driven applications while
+        developing my skills in backend development.
+      </p>
+
+      <div class="hero__actions">
+        <a class="button button--primary" href="#projects">
+          View My Projects
+        </a>
+
+        <a class="button button--secondary" href="assets/documents/lao-david-cv.pdf" target="_blank" rel="noopener">
+          View CV
+        </a>
+
+        <a class="button button--secondary" href="#contact">
+          Contact Me
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__portrait">
+      <div class="hero__portrait-frame">
+        <img
+          src="assets/images/lao-david-profile.png"
+          alt="Lao David"
+          class="hero__portrait-image"
+        >
+      </div>
+    </div>
+  </div>
+</section>
 
     <section class="section section--bordered" id="about" aria-labelledby="about-heading">
       <div class="container section-layout"><div class="section-heading"><p class="technical-label">Profile</p><h2 id="about-heading">About Me</h2></div><div class="about-content">
-        <p class="section-intro">I’m Lao David, a Software Engineering student based in Phnom Penh, Cambodia. I enjoy solving practical problems by building backend and database-driven applications for real-world needs.</p>
+        <p class="section-intro">
+          I’m Lao David, a Software Engineering student at Limkokwing University of
+          Creative Technology. I enjoy learning through practical projects and building
+          software that solves real-world problems.
+        </p>
         <p>I learn best through hands-on projects rather than theory alone. I’m currently strengthening my skills in Java, Spring Boot, MySQL and SQL, REST APIs, Data Structures and Algorithms, Git and GitHub, and Flutter.</p>
-        <p>My practical experience includes Clinix for a family medicine-distribution business, university team projects such as InvoSight, DSA Java Toolkit and Nudge, and smaller personal and academic projects.</p>
+        <p>
+          My practical experience includes Clinix for a family medicine-distribution
+          business, leading the Petio university project, contributing to team projects
+          such as InvoSight, DSA Java Toolkit and Nudge, and building smaller personal
+          and academic projects.
+        </p>
         <p>My goal is to become a backend developer, with a long-term focus on Java, Spring Boot and database-driven systems.</p>
         <h3 class="about-subheading">Education</h3>
         <dl class="resume-facts about-facts"><div><dt>Programme</dt><dd>Bachelor of Software Engineering</dd></div><div><dt>Institution</dt><dd>Limkokwing University of Creative Technology</dd></div><div><dt>Current level</dt><dd>Year 3, Semester 2</dd></div><div><dt>Started</dt><dd>Around October 2024</dd></div><div><dt>Expected graduation</dt><dd>Around the end of 2027</dd></div></dl>
@@ -66,52 +107,713 @@
       </div></div>
     </section>
 
-    <section class="section section--sand" id="cv" aria-labelledby="cv-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Documents</p><h2 id="cv-heading">CV &amp; Cover Letter</h2></div><div><p class="section-intro">My CV and cover letter are currently being prepared and will be available here soon.</p><div class="document-status" aria-label="Document availability"><article class="document-item"><h3>Curriculum Vitae</h3><p>A summary of my education, technical skills and project experience.</p><p class="document-item__status"><strong>Status:</strong> Coming soon</p></article><article class="document-item"><h3>Cover Letter</h3><p>An introduction to my background, interests and career direction.</p><p class="document-item__status"><strong>Status:</strong> Coming soon</p></article></div></div></div></section>
+    <section class="section section--sand" id="cv" aria-labelledby="cv-heading">
+  <div class="container section-layout">
+    <div class="section-heading">
+      <p class="technical-label">Documents</p>
+      <h2 id="cv-heading">Curriculum Vitae</h2>
+    </div>
 
-    <section class="section" id="projects" aria-labelledby="projects-heading"><div class="container">
-      <div class="section-heading section-heading--spaced"><p class="technical-label">Selected work</p><h2 id="projects-heading">Projects</h2></div>
-      <h3 class="project-group-heading">Featured Projects</h3>
-      <div class="featured-projects">
-        <article class="project-card project-card--featured project-card--primary">
-          <div class="media-placeholder"><span>Private business project</span><small>Screenshot withheld for privacy</small></div>
-          <div class="project-card__content"><div class="project-header"><div><p class="technical-label">Real Business Project</p><h3>Clinix</h3></div><p class="status-label">Working and usable · Improvements planned</p></div>
-            <p class="project-summary">A medicine distribution and order-management web application built for a real family business.</p>
-            <div class="project-details"><div><h4>Problem</h4><p>It replaces parts of a paper-based workflow with a centralized system for managing products, inventory, customers, orders and customer debts.</p></div><div><h4>My contribution</h4><p>I designed and developed the application, including its database and main business-management features.</p></div><div><h4>Result</h4><p>It helps organize business records digitally instead of relying primarily on paper records.</p></div></div>
-            <h4>Main features</h4><ul class="feature-list"><li>Product management</li><li>Inventory management</li><li>Customer management</li><li>Order management</li><li>Customer debt tracking</li><li>Order records</li><li>Database-driven business workflow</li></ul>
-            <ul class="tag-list" aria-label="Clinix technologies"><li>Laravel</li><li>PHP</li><li>MySQL</li><li>Bootstrap</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><p class="source-note"><strong>Access:</strong> Private business project. Source code is stored locally; there is no public repository or live URL.</p>
+    <div>
+      <p class="section-intro">
+        View or download my CV for an overview of my education, skills and experience.
+      </p>
+
+      <div class="document-status" aria-label="Document availability">
+
+        <article class="document-item">
+          <h3>Curriculum Vitae</h3>
+
+          <p>
+            A summary of my education, technical skills and project experience.
+          </p>
+
+          <div class="document-item__actions">
+            <a
+              class="button button--primary"
+              href="assets/documents/lao-david-cv.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              View CV
+            </a>
+
+            <a
+              class="button button--secondary"
+              href="assets/documents/lao-david-cv.pdf"
+              download
+            >
+              Download CV
+            </a>
           </div>
         </article>
-        <article class="project-card project-card--featured">
-          <div class="media-placeholder"><span>Project preview</span><small>Screenshot coming soon</small></div>
-          <div class="project-card__content"><div class="project-header"><div><p class="technical-label">University Team Project</p><h3>InvoSight</h3></div><p class="status-label">Prototype</p></div>
-            <p class="project-summary">A QR-ordering and POS system designed for small and medium-sized cafés.</p>
-            <div class="project-details"><div><h4>Problem</h4><p>It aims to make café ordering and cashier operations more efficient through a digital POS and QR-based ordering workflow.</p></div><div><h4>My contribution</h4><p>I worked on the cashier/POS interface and its related workflow.</p></div><div><h4>Result</h4><p>I gained practical experience building a business-oriented application with a team, particularly in designing and implementing cashier workflows.</p></div></div>
-            <h4>Main features and concepts</h4><ul class="feature-list"><li>QR ordering</li><li>Cashier/POS interface</li><li>Order management</li><li>Café ordering workflow</li><li>Inventory-related functionality</li><li>Sales and business-insight concepts</li><li>Cash payments</li><li>Static KHQR with manual cashier confirmation</li><li>Live order updates through AJAX polling</li></ul>
-            <ul class="tag-list" aria-label="InvoSight technologies"><li>PHP</li><li>Laravel</li><li>MVC architecture</li><li>Blade</li><li>Tailwind CSS</li><li>JavaScript</li><li>Eloquent</li><li>SQLite or MySQL</li><li>PHPUnit</li><li>GitHub Actions</li><li>AJAX polling</li></ul><p class="source-note"><strong>Access:</strong> Restricted team repository. No public URL is confirmed.</p>
+
+        <!-- <article class="document-item">
+          <h3>Cover Letter</h3>
+
+          <p>
+            Cover letters are tailored to each role and application.
+          </p>
+
+          <p class="document-item__status">
+            <strong>Availability:</strong> On request
+          </p>
+        </article> -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+  <div class="container">
+
+    <div class="section-heading section-heading--spaced">
+      <p class="technical-label">Selected work</p>
+      <h2 id="projects-heading">Projects</h2>
+    </div>
+
+    <h3 class="project-group-heading">Featured Projects</h3>
+
+    <div class="featured-projects">
+
+      <!-- CLINIX -->
+      <!-- <article class="project-card project-card--featured project-card--primary">
+        <div class="media-placeholder">
+          <span>Private business project</span>
+          <small>Screenshot withheld for privacy</small>
+        </div>
+
+        <div class="project-card__content">
+          <div class="project-header">
+            <div>
+              <p class="technical-label">Real Business Project</p>
+              <h3>Clinix</h3>
+            </div>
+
+            <p class="status-label">
+              Working and usable · Improvements planned
+            </p>
           </div>
+
+          <p class="project-summary">
+            A medicine-distribution and order-management web application
+            built for a real family business.
+          </p>
+
+          <div class="project-details">
+            <div>
+              <h4>Problem</h4>
+              <p>
+                It replaces parts of a paper-based workflow with a
+                centralized system for managing products, inventory,
+                customers and orders.
+              </p>
+            </div>
+
+            <div>
+              <h4>My contribution</h4>
+              <p>
+                I designed and developed the application, including its
+                database and main business-management features.
+              </p>
+            </div>
+
+            <div>
+              <h4>Result</h4>
+              <p>
+                It helps organize business records digitally instead of
+                relying primarily on paper records.
+              </p>
+            </div>
+          </div>
+
+          <h4>Main features</h4>
+
+          <ul class="feature-list">
+            <li>Product management</li>
+            <li>Inventory management</li>
+            <li>Customer management</li>
+            <li>Order management</li>
+            <li>Order records</li>
+            <li>Database-driven business workflow</li>
+          </ul>
+
+          <ul class="tag-list" aria-label="Clinix technologies">
+            <li>Laravel</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Bootstrap</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+
+          <p class="source-note">
+            <strong>Access:</strong>
+            Private business project. Source code and business data are
+            not publicly available.
+          </p>
+        </div>
+      </article> -->
+
+
+      <!-- INVOSIGHT -->
+      <article class="project-card project-card--featured">
+        <div class="media-placeholder">
+          <span>InvoSight</span>
+          <small>QR ordering and POS system</small>
+        </div>
+
+        <div class="project-card__content">
+          <div class="project-header">
+            <div>
+              <p class="technical-label">University Team Project</p>
+              <h3>InvoSight</h3>
+            </div>
+
+            <p class="status-label">Prototype</p>
+          </div>
+
+          <p class="project-summary">
+            A QR-ordering and point-of-sale system designed for small and
+            medium-sized cafés.
+          </p>
+
+          <div class="project-details">
+            <div>
+              <h4>Problem</h4>
+              <p>
+                It aims to make café ordering and cashier operations more
+                efficient through a digital POS and QR-based ordering
+                workflow.
+              </p>
+            </div>
+
+            <div>
+              <h4>My contribution</h4>
+              <p>
+                I worked on the cashier/POS interface and its related
+                workflow.
+              </p>
+            </div>
+
+            <div>
+              <h4>Result</h4>
+              <p>
+                I gained practical experience building a business-oriented
+                application with a team, particularly in designing and
+                implementing cashier workflows.
+              </p>
+            </div>
+          </div>
+
+          <h4>Main features and concepts</h4>
+
+          <ul class="feature-list">
+            <li>QR ordering</li>
+            <li>Cashier/POS interface</li>
+            <li>Order management</li>
+            <li>Café ordering workflow</li>
+            <li>Cash payments</li>
+            <li>Static KHQR with manual cashier confirmation</li>
+            <li>Live order updates through AJAX polling</li>
+          </ul>
+
+          <ul class="tag-list" aria-label="InvoSight technologies">
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>MVC</li>
+            <li>Blade</li>
+            <li>Tailwind CSS</li>
+            <li>JavaScript</li>
+            <li>Eloquent</li>
+            <li>MySQL / SQLite</li>
+            <li>PHPUnit</li>
+            <li>GitHub Actions</li>
+          </ul>
+
+          <div class="document-item__actions">
+            <a
+              class="button button--primary"
+              href="https://github.com/Bot007Bott/invosight"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View GitHub Repository
+            </a>
+
+            <a
+              class="button button--secondary"
+              href="assets/documents/reports/invosight-report.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              View Report
+            </a>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- PETIO -->
+      <article class="project-card project-card--featured">
+        <div class="media-placeholder">
+          <span>Petio</span>
+          <small>Mobile UI/UX prototype</small>
+        </div>
+
+        <div class="project-card__content">
+          <div class="project-header">
+            <div>
+              <p class="technical-label">
+                University Interaction Design Project
+              </p>
+              <h3>Petio</h3>
+            </div>
+
+            <p class="status-label">Figma Prototype</p>
+          </div>
+
+          <p class="project-summary">
+            A mobile pet platform designed to bring community discussions,
+            local pet services, marketplace listings and lost-and-found
+            support into one experience.
+          </p>
+
+          <div class="project-details">
+            <div>
+              <h4>Problem</h4>
+              <p>
+                Pet-related information, services and community support can
+                be spread across different sources, making them harder to
+                find and use in one place.
+              </p>
+            </div>
+
+            <div>
+              <h4>My contribution</h4>
+              <p>
+                As team leader, I planned the project, divided tasks,
+                coordinated with my teammate, conducted research and survey
+                work, contributed to the documentation, and worked on the
+                UI/UX design and Figma prototype.
+              </p>
+            </div>
+
+            <div>
+              <h4>Result</h4>
+              <p>
+                The project produced a researched mobile UI/UX prototype
+                covering Petio's main user flows and core features.
+              </p>
+            </div>
+          </div>
+
+          <h4>Core features</h4>
+
+          <ul class="feature-list">
+            <li>Community Forum &amp; Chat</li>
+            <li>Service Directory</li>
+            <li>Marketplace</li>
+            <li>Lost &amp; Found</li>
+          </ul>
+
+          <ul class="tag-list" aria-label="Petio project areas">
+            <li>Figma</li>
+            <li>UI/UX Design</li>
+            <li>User Research</li>
+            <li>Prototyping</li>
+            <li>User-Centred Design</li>
+          </ul>
+
+          <div class="document-item__actions">
+            <a
+              class="button button--primary"
+              href="https://www.figma.com/design/2X3wG5YOqAjkGl4meFVdcQ/Petio_Figma_Design?node-id=15-3&amp;m=dev&amp;t=4DwedDWVXBgekaMT-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Figma Prototype
+            </a>
+
+            <a
+              class="button button--secondary"
+              href="assets/documents/reports/petio-report.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              View Report
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+
+    <!-- OTHER PROJECTS -->
+    <!-- <h3 class="project-group-heading project-group-heading--other">
+      Other Projects
+    </h3> -->
+
+    <!-- <div class="other-projects">
+
+      <article class="compact-card">
+        <p class="technical-label">University Team Project</p>
+        <h3>DSA Java Toolkit</h3>
+
+        <p>
+          A university team project implementing and testing common data
+          structures and algorithms in Java.
+        </p>
+
+        <p>
+          <strong>My contribution:</strong>
+          Linear search and binary search.
+        </p>
+
+        <ul
+          class="tag-list"
+          aria-label="DSA Java Toolkit technologies"
+        >
+          <li>Java</li>
+        </ul>
+
+        <p class="source-note">
+          No public repository is provided.
+        </p>
+      </article>
+
+
+      <article class="compact-card">
+        <p class="technical-label">
+          Personal Project · In Development
+        </p>
+
+        <h3>Deepiso</h3>
+
+        <p>
+          An ongoing personal trading-analysis project focused on
+          developing trading logic and structured market-analysis rules.
+        </p>
+
+        <p>
+          <strong>My contribution:</strong>
+          The trading logic and underlying concept and system.
+        </p>
+
+        <h4>Concepts</h4>
+
+        <ul class="compact-list">
+          <li>Trend analysis</li>
+          <li>Entry and exit concepts</li>
+          <li>Structured trade setups</li>
+          <li>Market-analysis logic</li>
+        </ul>
+
+        <p class="source-note">
+          Private source code · No live URL · In development
+        </p>
+      </article>
+
+
+      <article class="compact-card">
+        <p class="technical-label">University Flutter Project</p>
+
+        <h3>Nudge</h3>
+
+        <p>
+          A location-based reminder application created as a university
+          team project.
+        </p>
+
+        <p>
+          <strong>My contribution:</strong>
+          The Create Nudge flow.
+        </p>
+
+        <ul class="tag-list" aria-label="Nudge technologies">
+          <li>Flutter</li>
+          <li>Dart</li>
+        </ul>
+
+        <p class="source-note">
+          No public repository or live URL is provided.
+        </p>
+      </article>
+
+    </div> -->
+  </div>
+</section>
+
+    <section
+  class="section section--sand"
+  id="reports"
+  aria-labelledby="reports-heading"
+>
+  <div class="container section-layout">
+    <div class="section-heading">
+      <p class="technical-label">Written Work</p>
+      <h2 id="reports-heading">Reports</h2>
+    </div>
+
+    <div>
+      <p class="section-intro">
+        Selected academic documentation from my university projects.
+      </p>
+
+      <div class="report-grid">
+        <article class="report-card">
+          <p class="technical-label">Interaction Design</p>
+          <h3>Petio</h3>
+          <p>
+            Research, user-centred design, prototyping and project documentation
+            for a pet-focused platform.
+          </p>
+          <a
+            class="button button--secondary"
+            href="assets/documents/reports/petio-report.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View Report
+          </a>
+        </article>
+
+        <article class="report-card">
+          <p class="technical-label">Software Development</p>
+          <h3>InvoSight</h3>
+          <p>
+            Project documentation for a QR ordering and point-of-sale system
+            developed as a university team project.
+          </p>
+          <a
+            class="button button--secondary"
+            href="assets/documents/reports/invosight-report.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View Report
+          </a>
+        </article>
+
+        <article class="report-card">
+          <p class="technical-label">Data Structures &amp; Algorithms</p>
+          <h3>DSA Java Toolkit</h3>
+          <p>
+            Documentation covering data structures, algorithms,
+            implementation and performance analysis in Java.
+          </p>
+          <a
+            class="button button--secondary"
+            href="assets/documents/reports/dsa-java-toolkit-report.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View Report
+          </a>
+        </article>
+
+        <article class="report-card">
+          <p class="technical-label">Mobile Development</p>
+          <h3>Nudge</h3>
+          <p>
+            Project documentation for a Flutter mobile application built
+            around location-based reminders.
+          </p>
+          <a
+            class="button button--secondary"
+            href="assets/documents/reports/nudge-report.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View Report
+          </a>
         </article>
       </div>
-      <h3 class="project-group-heading project-group-heading--other">Other Projects</h3>
-      <div class="other-projects">
-        <article class="compact-card"><p class="technical-label">University Team Project</p><h3>DSA Java Toolkit</h3><p>A university team project implementing and testing common data structures and algorithms in Java.</p><p><strong>My contribution:</strong> Linear search and binary search.</p><ul class="tag-list" aria-label="DSA Java Toolkit technologies"><li>Java</li></ul><p class="source-note">No public repository is provided.</p></article>
-        <article class="compact-card"><p class="technical-label">Personal Project · In Development</p><h3>Deepiso</h3><p>An ongoing personal trading-analysis project focused on developing trading logic and structured market-analysis rules.</p><p><strong>My contribution:</strong> The trading logic and underlying concept and system.</p><h4>Concepts</h4><ul class="compact-list"><li>Trend analysis</li><li>Entry and exit concepts</li><li>Structured trade setups</li><li>Market-analysis logic</li></ul><p class="source-note">Private source code · No live URL · In development</p></article>
-        <article class="compact-card"><p class="technical-label">University Flutter Project</p><h3>Nudge</h3><p>A location-based reminder application created as a university team project.</p><p><strong>My contribution:</strong> The Create Nudge flow.</p><ul class="tag-list" aria-label="Nudge technologies"><li>Flutter</li><li>Dart</li></ul><p class="source-note">No public repository or live URL is provided.</p></article>
+    </div>
+  </div>
+</section>
+
+    <section
+  class="section"
+  id="certificates"
+  aria-labelledby="certificates-heading"
+>
+  <div class="container section-layout">
+    <div class="section-heading">
+      <p class="technical-label">Credentials</p>
+      <h2 id="certificates-heading">Certificates &amp; Achievements</h2>
+    </div>
+
+    <div>
+      <p class="section-intro">
+        Selected academic, language and extracurricular achievements from my
+        education and activities.
+      </p>
+
+      <div class="certificate-grid">
+        <article class="certificate-card">
+  <p class="technical-label">Language</p>
+  <h3>IELTS Academic</h3>
+  <p>Overall Band 7.0 · CEFR C1</p>
+  <p class="certificate-card__meta">2024</p>
+
+  <a
+    class="button button--secondary"
+    href="assets/documents/certificates/ielts-academic-result.pdf"
+    target="_blank"
+    rel="noopener"
+  >
+    View Result
+  </a>
+</article>
+
+        <article class="certificate-card">
+          <p class="technical-label">Program</p>
+          <h3>NZ Tribe Ambassador Program</h3>
+          <p>1st Cohort Ambassador's Team Member</p>
+          <p class="certificate-card__meta">Verywords Co., Ltd. · 2026</p>
+
+          <a
+            class="button button--secondary"
+            href="assets/documents/certificates/nz-tribe-ambassador-certificate.jpg"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate
+          </a>
+        </article>
+
+        <article class="certificate-card">
+          <p class="technical-label">Academic Achievement</p>
+          <h3>Mathematics Merit Award</h3>
+          <p>
+            Mathematics Outstanding Students Cambodia · Grade 10 Division
+          </p>
+          <p class="certificate-card__meta">2021</p>
+
+          <a
+            class="button button--secondary"
+            href="assets/documents/certificates/mathematics-merit-award.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate
+          </a>
+        </article>
+
+        <article class="certificate-card">
+          <p class="technical-label">Academic</p>
+          <h3>Grade 11 Certificate</h3>
+          <p>Sovannaphumi School</p>
+
+          <a
+            class="button button--secondary"
+            href="assets/documents/certificates/grade-11-certificate.jpg"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate
+          </a>
+        </article>
+
+        <article class="certificate-card">
+          <p class="technical-label">Academic</p>
+          <h3>Grade 12 Certificate</h3>
+          <p>Sovannaphumi School</p>
+
+          <a
+            class="button button--secondary"
+            href="assets/documents/certificates/grade-12-certificate.jpg"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate
+          </a>
+        </article>
+
+        <article class="certificate-card">
+          <p class="technical-label">Academic</p>
+          <h3>BACII School Certificate</h3>
+          <p>Sovannaphumi School</p>
+
+          <a
+            class="button button--secondary"
+            href="assets/documents/certificates/bacii-school-certificate.jpg"
+            target="_blank"
+            rel="noopener"
+          >
+            View Certificate
+          </a>
+        </article>
+
+        <article class="certificate-card">
+  <p class="technical-label">National Examination</p>
+  <h3>BACII Result</h3>
+  <p>Upper Secondary School Diploma Examination</p>
+  <p class="certificate-card__meta">Grade B</p>
+
+  <a
+    class="button button--secondary"
+    href="assets/documents/certificates/bacii-result.pdf"
+    target="_blank"
+    rel="noopener"
+  >
+    View Result
+  </a>
+</article>
       </div>
-    </div></section>
-
-    <section class="section section--sand section--empty" id="reports" aria-labelledby="reports-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Written work</p><h2 id="reports-heading">Reports</h2></div><div class="empty-state"><p class="section-intro">Selected academic and project reports will be added here after they are prepared for public viewing.</p><p class="empty-state__status">Coming soon</p></div></div></section>
-
-    <section class="section section--empty" id="certificates" aria-labelledby="certificates-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Credentials</p><h2 id="certificates-heading">Certificates</h2></div><div class="empty-state"><p class="section-intro">Career-relevant certificates will be added here after their details and supporting files are verified.</p><p class="empty-state__status">Coming soon</p></div></div></section>
+    </div>
+  </div>
+</section>
 
     <section class="section section--bordered" id="experience" aria-labelledby="experience-heading">
       <div class="container section-layout">
         <div class="section-heading"><p class="technical-label">Learning by building</p><h2 id="experience-heading">Experience</h2></div>
         <div class="resume-list">
-          <article class="resume-item"><h3>Clinix / Family Business Software Project</h3><p>For a family medicine-distribution business, I designed and developed the Clinix web application and its database. I built the main business-management features around products, inventory, customers, orders and customer debts, helping move parts of the paper-based workflow into digital records.</p></article>
-          <article class="resume-item"><h3>University Team Projects</h3><p>I collaborated on InvoSight, the DSA Java Toolkit and Nudge. My contributions included the InvoSight cashier/POS interface and workflow, linear and binary search for the Java toolkit, and the Create Nudge flow for the Flutter application.</p></article>
-          <article class="resume-item"><h3>Smaller Personal and Academic Projects</h3><p>I build smaller projects to practise programming, backend concepts, databases and software-development workflows.</p></article>
-          <article class="resume-item"><h3>Damoluxe</h3><p>I supported customer service, restocking and order management for a small e-commerce and fashion-accessories business, developing practical organization and customer-focused skills.</p></article>
-        </div>
+  <article class="resume-item">
+    <h3>Clinix / Family Business Software Project</h3>
+    <p>
+      For my family medicine-distribution business, I designed and developed
+      the Clinix web application and its database. I built the main
+      business-management features around products, inventory, customers and
+      orders, helping move parts of the paper-based workflow into digital
+      records.
+    </p>
+  </article>
+
+  <article class="resume-item">
+    <h3>Petio / University Project Team Leader</h3>
+    <p>
+      As team leader for Petio, I planned the project, divided tasks,
+      coordinated with my teammate, conducted research and survey work, and
+      contributed to the project documentation. I also worked on the UI/UX
+      design and Figma prototype and helped prepare and present the project.
+    </p>
+  </article>
+
+  <article class="resume-item">
+    <h3>University Team Projects</h3>
+    <p>
+      I collaborated on InvoSight, the DSA Java Toolkit and Nudge. My
+      contributions included the InvoSight cashier/POS interface and workflow,
+      linear and binary search for the Java toolkit, and the Create Nudge flow
+      for the Flutter application.
+    </p>
+  </article>
+
+  <article class="resume-item">
+    <h3>Damoluxe / Co-Founder</h3>
+    <p>
+      As Co-Founder of Damoluxe, I help manage the day-to-day operations of
+      our small e-commerce and fashion-accessories business. I handle inventory
+      and restocking, order processing, customer communication and customer
+      relationships, while helping coordinate the overall business workflow.
+    </p>
+  </article>
+</div>
       </div>
     </section>
 
@@ -119,15 +821,109 @@
       <div class="container section-layout">
         <div class="section-heading"><p class="technical-label">Community</p><h2 id="volunteering-heading">Volunteering</h2></div>
         <div class="volunteer-grid">
-          <article class="compact-card"><p class="technical-label">Promoter member</p><h3>POPLE EV</h3><p>I supported promotional activities and helped communicate the POPLE EV offering to potential audiences.</p></article>
-          <article class="compact-card"><p class="technical-label">Event support · Two seasons</p><h3>Refresh Your Life</h3><p>I supported event organization and assisted the event leader across two seasons for a Cambodian volunteer team that organizes events and talk shows intended to inspire young people.</p></article>
+          <article class="experience-card">
+    <div>
+        <p class="technical-label">POPLE EV</p>
+        <h3>EV Promotion Team Member</h3>
+    </div>
+    <p>
+        I volunteered with the POPLE EV Promotion Team for one year, supporting the team leader
+        with promotional activities, Facebook content, captions, and ideas for engaging videos.
+        I also interviewed visiting Korean students about EVs and helped organize on-site
+        promotional activities.
+    </p>
+</article>
+
+<article class="experience-card">
+    <div>
+        <p class="technical-label">Refresh Your Life</p>
+        <h3>Personal Assistant to the Event Founder · Two Seasons</h3>
+    </div>
+    <p>
+        I worked closely with the event founder across two seasons, helping with event preparation
+        and overseeing the outdoor book-fair area while reporting updates back to him during the
+        main event. After returning for the second season, I received Outstanding Volunteer
+        recognition for my contribution.
+    </p>
+</article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="media" aria-labelledby="media-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Video</p><h2 id="media-heading">Media</h2></div><div class="media-content"><p class="section-intro">Selected presentation and interview videos will be added here after they are prepared for public viewing.</p><div class="media-grid"><article class="media-card"><h3>Marketing Video</h3><p class="media-card__status">Coming soon</p></article><article class="media-card"><h3>Mock-Interview Video</h3><p class="media-card__status">Coming soon</p></article></div></div></div></section>
+    <!-- <section class="section" id="media" aria-labelledby="media-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Video</p><h2 id="media-heading">Media</h2></div><div class="media-content"><p class="section-intro">Selected presentation and interview videos will be added here after they are prepared for public viewing.</p><div class="media-grid"><article class="media-card"><h3>Marketing Video</h3><p class="media-card__status">Coming soon</p></article><article class="media-card"><h3>Mock-Interview Video</h3><p class="media-card__status">Coming soon</p></article></div></div></div></section> -->
 
-    <section class="section section--contact" id="contact" aria-labelledby="contact-heading"><div class="container section-layout"><div class="section-heading"><p class="technical-label">Get in touch</p><h2 id="contact-heading">Contact</h2></div><div class="contact-content"><p class="section-intro">I’m open to internship, junior-development and collaborative project opportunities. If you would like to discuss a role or project, feel free to contact me by email.</p><address class="contact-list"><div class="contact-row"><span>Location</span><span>Phnom Penh, Cambodia</span></div><div class="contact-row"><span>Email</span><a href="mailto:laodavid205@gmail.com">laodavid205@gmail.com</a></div></address><div class="contact-actions"><a class="button button--primary" href="mailto:laodavid205@gmail.com">Email Me</a></div></div></div></section>
+    <section
+  class="section section--contact"
+  id="contact"
+  aria-labelledby="contact-heading"
+>
+  <div class="container section-layout">
+    <div class="section-heading">
+      <p class="technical-label">Get in touch</p>
+      <h2 id="contact-heading">Contact</h2>
+    </div>
+
+    <div class="contact-content">
+      <p class="section-intro">
+        I’m open to internship opportunities, collaborative projects, and
+        opportunities to learn and contribute. If you’d like to discuss a role
+        or project, feel free to contact me by email.
+      </p>
+
+      <address class="contact-list">
+        <div class="contact-row">
+          <span>Location</span>
+          <span>Phnom Penh, Cambodia</span>
+        </div>
+
+        <div class="contact-row">
+          <span>Email</span>
+          <a href="mailto:laodavid205@gmail.com">
+            laodavid205@gmail.com
+          </a>
+        </div>
+
+        <div class="contact-row">
+          <span>Phone</span>
+          <a href="tel:+85512669117">
+            +855 12 669 117
+          </a>
+        </div>
+
+        <div class="contact-row">
+          <span>GitHub</span>
+          <a
+            href="https://github.com/JinroZzz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            JinroZzz
+          </a>
+        </div>
+
+        <div class="contact-row">
+          <span>LinkedIn</span>
+          <a
+            href="https://www.linkedin.com/in/lao-david-09a6ab320/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Lao David
+          </a>
+        </div>
+      </address>
+
+      <div class="contact-actions">
+        <a
+          class="button button--primary"
+          href="mailto:laodavid205@gmail.com"
+        >
+          Email Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
   </main>
   <footer class="site-footer"><div class="container footer-layout"><div><a class="brand" href="#home" aria-label="Lao David portfolio home">Lao David</a><p>Built with HTML, CSS, and JavaScript.</p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#cv">CV</a><a href="#projects">Projects</a><a href="#reports">Reports</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav><p class="copyright"><small>&copy; <span id="current-year"></span> Lao David.</small></p></div></footer>
   <script src="js/main.js" defer></script>
